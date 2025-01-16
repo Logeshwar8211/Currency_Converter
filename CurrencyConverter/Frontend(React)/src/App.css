@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eaeaea;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 40px 25px 10px rgba(0, 0, 0, 0.1);
+}
+
+.converter-box {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  
+  text-align: center;
+}
+
+.dropdown-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.currency-dropdown {
+  width: 45%;
+}
+
+.swap-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background 0.3s ease;
+}
+
+.swap-btn:hover {
+  background: #0056b3;
+}
+
+.exchange-rate {
+  background: #e9f7ef;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
